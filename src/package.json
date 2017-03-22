@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "simple-maven-node",
+  "version": "1.0.0",
+  "description": "Yarn not working",
+  "scripts": {
+    "lint": "standard src/main/js/**/*.js ",
+    "auto-fix-lint": "standard src/main/js/**/*.js src/main/js/**/*.js"
+  },
+  "author": "Johni Sutanto",
+  "dependencies": {
+    "babel-template": "^6.2.0",
+    "babel-types": "^6.2.0",
+    "bluebird": "^3.4.7",
+    "classnames": "^2.2.5",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-react-intl": "^2.3.1",
+    "babel-plugin-rewire": "^1.0.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-promise-to-bluebird": "^1.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "1.1.1",
+    "babel-register": "6.8.0",
+    "standard": "^8.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
